@@ -54,4 +54,3 @@ if __name__ == '__main__':
             writeDFToFile(finalDf, config.get("targetPath"))
     except Exception as e:
         print("Exception: {}".format(str(e)))
-    #spark-submit --jars libs/spark-sql-kafka-0-10_2.11-2.4.0.jar,libs/kafka-clients-0.10.2.2.jar --conf "spark.driver.extraJavaOptions=-Dlog4j.configuration=config/log4j-spark.properties" --conf "spark.executor.extraJavaOptions=-Dlog4j.configuration=config/log4j-spark.properties" --py-files jobs.zip jobs/main.py C:/Users/ajaynh/Downloads/phData-Assignment/ddos/config/application_properties.json ingest/detect

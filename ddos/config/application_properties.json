@@ -1,6 +1,6 @@
 {
-	"srcFilePath" : "C:/Users/ajaynh/Downloads/phData-Assignment/ddos/resources/source/apache-access-log.txt",
-	"targetPath" : "C:/Users/ajaynh/Downloads/phData-Assignment/ddos/resources/target",
+	"srcFilePath" : "<project-loc>/ddos/resources/source/apache-access-log.txt",
+	"targetPath" : "<project-loc>/ddos/resources/target",
 	"kafkaBootstrapServers" : "localhost:9092",
 	"kafkaTopic" : "ddos-log"
 }
