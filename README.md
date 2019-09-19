@@ -3,13 +3,12 @@ This repo contains project 'ddos', which has been created to meet the following 
 
 **Ingest**
 
-  - Read a file from local disk and write to a message system such as Kafka
+  - Read a file from local drive and write to a message system such as Kafka
 
 **Detection**
 
   - Write an application which reads messages from the message system and detects whether the attacker is part of the DDOS attack
-  - Once an attacker is found, the ip-address should be written to a results directory which could be used for further processing
-  - An attack should be detected one to two minutes after starting
+  - Once an attacker is found, the host ip-address should be written to a directory which could be used for further processing
 
 **Limitations**
 
