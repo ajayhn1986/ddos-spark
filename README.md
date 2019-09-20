@@ -59,3 +59,13 @@ This repo contains project 'ddos', which has been created to meet the following 
   - To pass log4j-properies, pass additional arguments with --conf option
     ```
     $ spark-submit --jars ... --conf "spark.driver.extraJavaOptions=-Dlog4j.configuration=<project-loc>/ddos/config/log4j-spark.properties" --conf "spark.executor.extraJavaOptions=-Dlog4j.configuration=<project-loc>/ddos/config/log4j-spark.properties" --py-files ...
+
+# Reference
+
+  - DDoS (Distributed Denial-of-Service):
+    - https://www.cloudflare.com/en-in/learning/ddos/what-is-a-ddos-attack/
+  - User Agent:
+    - https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent
+    - https://hacks.mozilla.org/2013/09/user-agent-detection-history-and-checklist/
+  - Apache Log Format (Access Log):
+    - https://httpd.apache.org/docs/2.2/logs.html
