@@ -50,6 +50,7 @@ This repo contains project 'ddos', which has been created to meet the following 
 # Run Application
 
   - Make sure Zookeeper and Kafka are running
+  - Make sure the required kafka topic is in place
   - Make sure the same has been updated in application-properties
   - Make sure the required properties and libs are available
   - Then do spark-submit as below - here you run either ingest/detect operation at a time
